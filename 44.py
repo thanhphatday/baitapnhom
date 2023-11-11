@@ -1,0 +1,5 @@
+ch=input('Enter a month and day: ')
+if ch=='January 1': print('Holiday: New year’s day')
+elif ch=='July 1': print('Holiday: Canada day')
+elif ch=='December 25': print('Holiday: Christmas day')
+else: print('the entered month and day do not correspond to a fixed-date holiday.')
